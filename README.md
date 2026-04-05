@@ -1,54 +1,69 @@
-🚀 ZabHub Pro
-Professional GitHub Code Pusher & Repository Manager
+<div align="center">
 
-📝 عن البرنامج (About)
-ZabHub هو أداة سطح مكتب متطورة مبنية بإطار عمل Electron، مصممة خصيصاً للمبرمجين الذين يرغبون في رفع وتحديث ملفاتهم البرمجية على مستودعات GitHub بسرعة واحترافية دون الحاجة لاستخدام أوامر Git المعقدة في كل مرة. يتميز البرنامج بواجهة مستخدم "Neon" عصرية توفر تجربة مريحة وعملية.
+# 🚀 ZabHub Pro
+### Next-Generation GitHub Repository Manager & Code Streamliner
 
-✨ المميزات (Features)
-OAuth Integration: تسجيل دخول آمن ومباشر عبر حسابك في GitHub.
+[![Electron](https://img.shields.io/badge/Framework-Electron.js-191970?style=for-the-badge&logo=electron)](https://www.electronjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![GitHub API](https://img.shields.io/badge/Powered%20By-GitHub%20API-181717?style=for-the-badge&logo=github)](https://docs.github.com/en/rest)
 
-Repo Auto-Fetch: جلب قائمة مستودعاتك تلقائياً بمجرد الدخول.
+**ZabHub Pro** is a high-performance desktop application engineered to eliminate the friction of Git command-line workflows. Seamlessly push, update, and manage your repositories through a sophisticated Neon-Glassmorphism interface.
 
-Smart Path Handling: معالجة ذكية للمسارات لمنع أخطاء الـ Slashes.
+[Explore Documentation](#-how-to-use) • [Report Bug](https://github.com/zakariabarkawi/zabhub/issues) • [Request Feature](https://github.com/zakariabarkawi/zabhub/issues)
 
-Update Mode: إمكانية تحديث ملف موجود بالفعل عبر جلب الـ SHA تلقائياً.
+</div>
 
-Modern UI: واجهة زجاجية (Glassmorphism) مع تأثيرات النيون.
+---
 
-🛠️ طريقة الاستخدام (How to Use)
-تسجيل الدخول (Login):
+## ✨ Key Capabilities
 
-عند فتح البرنامج، اضغط على زر LOGIN WITH GITHUB.
+| Feature | Description |
+| :--- | :--- |
+| **🔐 OAuth2 Secure Auth** | Enterprise-grade login directly via GitHub for maximum security. |
+| **🔄 Auto-Sync Engine** | Instantly fetches your entire repository list upon authentication. |
+| **🧠 Intelligent Pathing** | Built-in logic to sanitize directory paths and prevent slash-redundancy errors. |
+| **⚡ Live-Patch Mode** | Automatically retrieves file `SHA` for instant updates to existing code. |
+| **🎨 Cyber-UI** | A cutting-edge Glassmorphism design optimized for developer focus. |
 
-سيفتح المتصفح ليطلب منك الصلاحيات، وافق عليها ثم عد للبرنامج.
+---
 
-إعداد الرفع (Setup):
+## 🛠️ Tech Stack
 
-اختر المستودع (Repository) المطلوب من القائمة المنسدلة.
+* **Core:** [Electron.js](https://www.electronjs.org/) (Cross-platform desktop integration)
+* **Interface:** [Tailwind CSS](https://tailwindcss.com/) (Atomic CSS for modern styling)
+* **Runtime:** [Node.js](https://nodejs.org/) & Express.js (High-speed OAuth callback handling)
+* **Communication:** RESTful Architecture via [GitHub API](https://docs.github.com/en/rest)
 
-اكتب مسار المجلد (Folder Path). ملاحظة: لا تبدأ المسار بـ / (مثال: اكتب src/js وليس /src/js/).
+---
 
-اكتب اسم الملف (Filename) مع الامتداد (مثال: index.js).
+## 📖 How to Use
 
-الرفع والتحديث (Push):
+### 1. Authentication
+Click **"LOGIN WITH GITHUB"**. The application will securely hand off authentication to your default browser. Once authorized, your session will be initialized automatically.
 
-قم بلصق الكود الخاص بك في المحرر.
+### 2. Configuration
+* **Repository Selection:** Choose your target repo from the dynamic dropdown.
+* **Pathing:** Input the folder structure (e.g., `src/assets`). *Note: Do not use leading or trailing slashes.*
+* **Filename:** Specify the file name including the extension (e.g., `main.py`).
 
-إذا كان الملف موجوداً مسبقاً وتريد تعديله، تأكد من تفعيل خيار "تحديث ملف موجود".
+### 3. Execution
+Paste your source code into the integrated editor. If you are modifying an existing file, toggle **"Update Mode"**. Hit **"SEND TO REPOSITORY"** and watch your changes go live in seconds. ✅
 
-اضغط على SEND TO REPOSITORY وانتظر رسالة النجاح ✅.
+---
 
-📦 المتطلبات التقنية (Tech Stack)
-Framework: Electron.js.
+## 🛡️ Security Protocol
 
-Styling: Tailwind CSS.
+ZabHub Pro prioritizes your privacy. 
+- **Zero Storage:** We never store passwords. 
+- **Session-Only Tokens:** Access tokens are stored in volatile memory and cleared upon exit.
+- **Direct Encryption:** All API calls are made over encrypted HTTPS channels.
 
-Backend: Node.js & Express (for OAuth callback).
+---
 
-API: GitHub REST API.
+<div align="center">
 
-⚠️ ملاحظة أمنية (Security Note)
-هذا التطبيق يستخدم OAuth2 للوصول إلى مستودعاتك بشكل آمن. لا يتم تخزين كلمات مرورك، والتوكن (Token) يستخدم فقط لجلسة العمل الحالية.
+Developed with 💜 by **Zakaria Barkawi**
+*"Building the future of web tools, one line of code at a time."*
 
-Developed with 💜 by Zakaria Barkawi (HZ Digital)
-“Building the future of web tools, one line of code at a time.”s
+</div>
