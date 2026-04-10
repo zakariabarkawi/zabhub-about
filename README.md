@@ -28,14 +28,6 @@
 
 ---
 
-## 🛠️ Tech Stack
-
-* **Core:** [Electron.js](https://www.electronjs.org/) (Cross-platform desktop integration)
-* **Interface:** [Tailwind CSS](https://tailwindcss.com/) (Atomic CSS for modern styling)
-* **Runtime:** [Node.js](https://nodejs.org/) & Express.js (High-speed OAuth callback handling)
-* **Communication:** RESTful Architecture via [GitHub API](https://docs.github.com/en/rest)
-
----
 
 ## 📖 How to Use
 
@@ -64,6 +56,8 @@ ZabHub Pro prioritizes your privacy.
 <div align="center">
 
 Developed with 💜 by **Zakaria Barkawi**
+**Please Read LICENSE**
+
 *"Building the future of web tools, one line of code at a time."*
 
 </div>
