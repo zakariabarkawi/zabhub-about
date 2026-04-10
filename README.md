@@ -56,6 +56,7 @@ ZabHub Pro prioritizes your privacy.
 <div align="center">
 
 Developed with 💜 by **Zakaria Barkawi**
+<br>
 **Please Read LICENSE**
 
 *"Building the future of web tools, one line of code at a time."*
