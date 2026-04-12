@@ -3,10 +3,6 @@
 # 🚀 ZabHub Pro
 ### Next-Generation GitHub Repository Manager & Code Streamliner
 
-[![Electron](https://img.shields.io/badge/Framework-Electron.js-191970?style=for-the-badge&logo=electron)](https://www.electronjs.org/)
-[![TailwindCSS](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![GitHub API](https://img.shields.io/badge/Powered%20By-GitHub%20API-181717?style=for-the-badge&logo=github)](https://docs.github.com/en/rest)
 
 **ZabHub Pro** is a high-performance desktop application engineered to eliminate the friction of Git command-line workflows. Seamlessly push, update, and manage your repositories through a sophisticated Neon-Glassmorphism interface.
 
